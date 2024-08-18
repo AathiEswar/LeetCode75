@@ -6,10 +6,11 @@ Arrays and Strings :
     * Kids With Greatest Candies : a) find the max of candies , loop through the arrayand add extra candies with each , if they are >= max
                                       then its true
 
-
+    * Can Place Flowers : a) solve three cases - the 0 can be in start , end and middle , if its 1 then skip two indexes
 
 
 TRICKS :
 * To iterate through two data with dif length while comparing them , we can use while loop and iterate with OR condition of the lengths
     or just use one pointer to loop through both with OR
 * To check if two strings are divisible with each other just check s1+s2 == s2 + s1
+* if the edge cases over laps merge them
