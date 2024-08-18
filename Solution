@@ -1,0 +1,15 @@
+Arrays and Strings :
+    * Merge Strings Alternately : a) run a loop of max len and append the char if its within the word len
+                                  b) run a while loop while any one of the word is not appended fully with one pointer
+    * Greatest Common Divisor of Strings : a) use gcd to get the possible substring divisor and check if its a divisor foreach string
+                                           b) check if a divisor is possible by using s1+s2 == s2+s1 and then use gcd to get the substring
+    * Kids With Greatest Candies : a) find the max of candies , loop through the arrayand add extra candies with each , if they are >= max
+                                      then its true
+
+
+
+
+TRICKS :
+* To iterate through two data with dif length while comparing them , we can use while loop and iterate with OR condition of the lengths
+    or just use one pointer to loop through both with OR
+* To check if two strings are divisible with each other just check s1+s2 == s2 + s1
