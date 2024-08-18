@@ -7,7 +7,9 @@ Arrays and Strings :
                                       then its true
 
     * Can Place Flowers : a) solve three cases - the 0 can be in start , end and middle , if its 1 then skip two indexes
-
+    * Reverse String with Words : a) use regex to split the String and append from last
+                                  b) use a pointer from last , iterate through till the word start is found and append the word by
+                                   iterating to the word end and loop again from the last i
 
 TRICKS :
 * To iterate through two data with dif length while comparing them , we can use while loop and iterate with OR condition of the lengths
@@ -15,3 +17,4 @@ TRICKS :
 * To check if two strings are divisible with each other just check s1+s2 == s2 + s1
 * if the edge cases over laps merge them
 * StringBuilder , char Array can be changed to String by passing it to the string constructor
+* Check iteration from both ends , for reverse just iterate from end
