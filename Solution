@@ -10,6 +10,8 @@ Arrays and Strings :
     * Reverse String with Words : a) use regex to split the String and append from last
                                   b) use a pointer from last , iterate through till the word start is found and append the word by
                                    iterating to the word end and loop again from the last i
+    * Product Of Array Except Self : a) try all possible values and product them and return them
+                                     b) find the suffix product first , then prefix product in the same array and return that array
 
 TRICKS :
 * To iterate through two data with dif length while comparing them , we can use while loop and iterate with OR condition of the lengths
