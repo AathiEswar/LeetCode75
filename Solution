@@ -14,3 +14,4 @@ TRICKS :
     or just use one pointer to loop through both with OR
 * To check if two strings are divisible with each other just check s1+s2 == s2 + s1
 * if the edge cases over laps merge them
+* StringBuilder , char Array can be changed to String by passing it to the string constructor
