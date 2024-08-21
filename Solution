@@ -12,6 +12,9 @@ Arrays and Strings :
                                    iterating to the word end and loop again from the last i
     * Product Of Array Except Self : a) try all possible values and product them and return them
                                      b) find the suffix product first , then prefix product in the same array and return that array
+    * Increasing Triplet Subsequence : a) use three loops to find all possible combinations and satisfy the conditons
+                                       b) Use two min vars , if num is less than min1 update min1 to num , same for min2 , if a num is
+                                          greater than both min1 and min2 return true since we found the third greater num
 
 TRICKS :
 * To iterate through two data with dif length while comparing them , we can use while loop and iterate with OR condition of the lengths
@@ -20,3 +23,5 @@ TRICKS :
 * if the edge cases over laps merge them
 * StringBuilder , char Array can be changed to String by passing it to the string constructor
 * Check iteration from both ends , for reverse just iterate from end
+* For prefix and sufix , either do them in o(n^2) same loop or seperate in two loops
+*
