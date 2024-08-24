@@ -15,6 +15,14 @@ Arrays and Strings :
     * Increasing Triplet Subsequence : a) use three loops to find all possible combinations and satisfy the conditons
                                        b) Use two min vars , if num is less than min1 update min1 to num , same for min2 , if a num is
                                           greater than both min1 and min2 return true since we found the third greater num
+    * String Compression  : a) Hookers algo - loop through the array , get the char and count = 0  , loop again till we found a char not
+                               equal to chr , add the char to array with hooker index and add count if not 1 using hooker index
+
+TWO POINTERS :
+    * Move Zeros : a) Create a copy array , when the element is non-zero , add to copy array and move back copy array to res array
+                   b) Use hooker algo , when encounter with a non-zero swap to hooker index and increment the hooker index
+                   c) Use hooker algo , when encounter with a non-zero just change the zero to the num , in next loop change all num
+                    to zero from the hooker index
 
 TRICKS :
 * To iterate through two data with dif length while comparing them , we can use while loop and iterate with OR condition of the lengths

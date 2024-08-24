@@ -49,7 +49,7 @@ public class MoveZeros {
     /* MOST OPTIMIZED :
         Use hooker algorithm but no swaps
 
-        when encounter a non zero , change the zero to num
+        when encounter a non-zero , change the zero to num
 
         after loop ends , make the nums as zero from the last hooker index
      */
@@ -61,7 +61,6 @@ public class MoveZeros {
                     nums[hooker++] = num ;
                 }
             }
-
             while( hooker < nums.length ){
                 nums[hooker++] = 0;
             }
