@@ -23,6 +23,10 @@ TWO POINTERS :
                    b) Use hooker algo , when encounter with a non-zero swap to hooker index and increment the hooker index
                    c) Use hooker algo , when encounter with a non-zero just change the zero to the num , in next loop change all num
                     to zero from the hooker index
+    * Is Subsequence : a) create StringBuffer for t , loop through till one of the pointer ends , if the char is same increment both pointers
+                        else delete the t-pointer , check if s-pointer is same as the len of s
+                       b) create StringBuffer for t , loop through till one of the pointer ends , if the char is same increment both pointers
+                                                  else delete the t-pointer , check if s-pointer is same as the len of s and return
 
 TRICKS :
 * To iterate through two data with dif length while comparing them , we can use while loop and iterate with OR condition of the lengths
@@ -32,4 +36,3 @@ TRICKS :
 * StringBuilder , char Array can be changed to String by passing it to the string constructor
 * Check iteration from both ends , for reverse just iterate from end
 * For prefix and sufix , either do them in o(n^2) same loop or seperate in two loops
-*
